@@ -1,0 +1,21 @@
+.image-load-container {
+    position: relative;
+
+    img {
+        &.loading {
+            visibility: hidden;
+        }
+    }
+
+    .loading-animation-container {
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+
+        &.loaded {
+            display: none;
+        }
+    }
+}
