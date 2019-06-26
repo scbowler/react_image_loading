@@ -1,13 +1,14 @@
 import React from 'react';
 import '../assets/css/app.scss';
-import logo from '../assets/images/logo.svg';
+import Demo from './demo';
 
 const App = () => (
     <div>
-        <div className="app">
-            <img src={logo} className="logo rotate"/>
-            <h1>Welcome To React</h1>
-        </div>
+        <h1 className="center">Image Loading Demo</h1>
+
+        <Demo />
+
+        <h2 className="center">This is at the bottom, below loading image</h2>
     </div>
 );
 
